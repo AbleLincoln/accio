@@ -21,9 +21,6 @@ jobs:
         with:
           node-version: '18' # Specify the Node.js version you want to use
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Run script to update cards.json
         run: node .github/scripts/updateCardsJson.js
 
