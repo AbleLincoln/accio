@@ -1,7 +1,7 @@
 export const cards = [
   {
     number: '1',
-    name: 'Albus Dumbleadorable',
+    name: 'Albus Dumbleadorable never',
     type: ['Character'],
     subTypes: ['Wizard', 'Unique'],
     flavorText:
