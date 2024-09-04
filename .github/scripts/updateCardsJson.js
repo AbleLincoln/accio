@@ -1,7 +1,7 @@
 // .github/scripts/updateCardsJson.js
 
-const fs = require('fs')
-const { cards } = require('../../cards.js') // Assuming cards.js exports like: export const cards = [...]
+import fs from 'fs'
+import { cards } from '../../cards.js'
 
 // Convert the cards data to JSON
 const jsonData = JSON.stringify(cards, null, 2)
